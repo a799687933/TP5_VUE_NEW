@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	
+	<application setting='false'>
+		<name><![CDATA[跑牛步数宝]]></name>
+
+		<identifie><![CDATA[run_cowstep]]></identifie>
+
+		<version><![CDATA[1.0.0]]></version>
+
+		<ability><![CDATA[1]]></ability>
+
+		<type><![CDATA[activity]]></type>
+
+		<description><![CDATA[跑牛步数，步数换商品]]></description>
+
+		<author><![CDATA[a799687933]]></author>
+
+		<url><![CDATA[1]]></url>
+
+		<setting><![CDATA[1]]></setting>
+
+	</application>
+
+	
+	<platform>
+		<subscribes>
+			<message type="text" />
+
+			<message type="image" />
+
+			<message type="voice" />
+
+			<message type="video" />
+
+			<message type="shortvideo" />
+
+			<message type="location" />
+
+			<message type="link" />
+
+			<message type="subscribe" />
+
+			<message type="unsubscribe" />
+
+			<message type="qr" />
+
+			<message type="trace" />
+
+			<message type="click" />
+
+			<message type="view" />
+
+			<message type="merchant_order" />
+
+			<message type="user_del_card" />
+
+			<message type="user_get_card" />
+
+			<message type="user_consume_card" />
+
+		</subscribes>
+
+		<handles>
+
+			<message type="text" />
+			<message type="image" />
+			<message type="voice" />
+			<message type="video" />
+			<message type="shortvideo" />
+			<message type="location" />
+			<message type="link" />
+			<message type="subscribe" />
+			<message type="qr" />
+			<message type="trace" />
+			<message type="click" />
+			<message type="merchant_order" />
+			<message type="user_get_card" />
+			<message type="user_del_card" />
+			<message type="user_consume_card" />
+		</handles>
+
+		<rule embed="false" />
+
+		<rule embed="false" />
+
+	<supports>
+
+			<item type="app" />
+	</supports>
+
+	</platform>
+
+	
+	<bindings>
+
+		<cover>
+			<entry title="index" do="index" state="跑牛步数宝" direct="" />
+		</cover>
+
+		<menu>
+			<entry title="步数配置" do="step_config" state="step_config" direct="" />
+			<entry title="用户管理" do="users" state="users" direct="" />
+			<entry title="订单管理" do="orders" state="orders" direct="" />
+		</menu>
+
+	</bindings>
+
+	<install><![CDATA[]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>
